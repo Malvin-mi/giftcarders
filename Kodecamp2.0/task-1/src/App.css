@@ -1,0 +1,48 @@
+body {
+  background-color: #85dcb8;
+  margin: 0;
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.header {
+  text-align: center;
+}
+
+.list-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.card {
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  flex: 1 0 21%;
+  margin: 5px;
+  height: 130px;
+  background-color: #41b3a3;
+  color: white;
+}
+
+.card-title {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.card-desc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0 3px;
+}
+
