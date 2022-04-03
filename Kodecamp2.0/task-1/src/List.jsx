@@ -607,7 +607,7 @@ const List = () => {
         <div className="card" key={giftCard.id}>
           <div className="card-title">{giftCard.title}</div>
           <div className="card-desc">{giftCard.currencies.map(currency => {
-            return <p className='desc'>{currency}</p>})}</div>
+            return <p className='desc' key={giftCard.title + currency }>{currency}</p>})}</div>
         </div>
        ))
      }
