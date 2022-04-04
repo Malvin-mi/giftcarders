@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/giftcarders/static/css/main.22115c27.css",
+    "main.css": "/giftcarders/static/css/main.50524630.css",
     "main.js": "/giftcarders/static/js/main.6cb760da.js",
     "index.html": "/giftcarders/index.html",
-    "main.22115c27.css.map": "/giftcarders/static/css/main.22115c27.css.map",
+    "main.50524630.css.map": "/giftcarders/static/css/main.50524630.css.map",
     "main.6cb760da.js.map": "/giftcarders/static/js/main.6cb760da.js.map"
   },
   "entrypoints": [
-    "static/css/main.22115c27.css",
+    "static/css/main.50524630.css",
     "static/js/main.6cb760da.js"
   ]
 }
