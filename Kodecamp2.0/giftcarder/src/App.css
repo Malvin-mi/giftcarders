@@ -29,7 +29,7 @@ body {
   border-radius: 5px;
   flex: 1 0 21%;
   margin: 5px;
-  height: 130px;
+  height: px;
   background-color: #41b3a3;
   color: white;
 }
@@ -44,5 +44,31 @@ body {
   flex-wrap: wrap;
   gap: 4px;
   margin: 0 3px;
+  width: 90%;
+  margin: auto;
+}
+.desc {
+  border: rgb(145, 125, 13) 1px solid;
+  border-radius: 2px;
+  width: 2rem;
+  text-align: center;
+
 }
 
+@media (max-width: 850px) {
+  .list-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .card {
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    height: max-content;
+    background-color: #41b3a3;
+    color: white;
+    
+  }
+}
